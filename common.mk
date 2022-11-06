@@ -339,6 +339,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# Ih8sn
+PRODUCT_PACKAGES += \
+    ih8sn
+
 # Init
 PRODUCT_PACKAGES += \
     libinit_sm8350
@@ -469,7 +473,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/oneplus
+    hardware/oneplus \
+    vendor/ih8sn
 
 # Telephony
 PRODUCT_PACKAGES += \
